@@ -6,8 +6,6 @@
     "Akinjide Bankole <r@akinjide.me>"
   ],
   "license": "ISC",
-  "moduleType": [],
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
