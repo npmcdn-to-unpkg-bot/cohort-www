@@ -1,0 +1,23 @@
+{
+  "name": "cohort-www",
+  "description": "cohort 7",
+  "main": "gulpfile.js",
+  "authors": [
+    "Akinjide Bankole <r@akinjide.me>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "masonry": "^4.1.0",
+    "imagesloaded": "^4.1.0"
+  }
+}
