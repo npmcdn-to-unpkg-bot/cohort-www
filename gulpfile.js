@@ -30,15 +30,15 @@ var options = {
 g.task('styles', function() {
   return g.src(root + 'styles.css')
     .pipe(ap(options))
-    .pipe(cm({ showLog: true }))
-    .pipe(r({ suffix: '.min' }))
+    // .pipe(cm({ showLog: true }))
+    // .pipe(r({ suffix: '.min' }))
     .pipe(g.dest(compressed));
 });
 
 g.task('scripts', function() {
   return g.src(root + 'scripts.js')
-    .pipe(cc('r.min.js'))
-    .pipe(ug())
+    // .pipe(cc('r.min.js'))
+    // .pipe(ug())
     .pipe(g.dest(compressed));
 });
 
