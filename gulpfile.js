@@ -37,7 +37,7 @@ g.task('styles', function() {
 
 g.task('scripts', function() {
   return g.src(root + 'scripts.js')
-    .pipe(cc('scripts.min.js'))
+    .pipe(cc('r.min.js'))
     .pipe(ug())
     .pipe(g.dest(compressed));
 });
