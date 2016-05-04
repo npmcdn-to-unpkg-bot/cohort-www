@@ -1,0 +1,18 @@
+{
+  "name": "cohort-www",
+  "description": "cohort 7",
+  "main": "gulpfile.js",
+  "author": "Akinjide Bankole <r@akinjide.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "serve-static": "^1.10.2"
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
